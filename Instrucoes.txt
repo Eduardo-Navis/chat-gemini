@@ -1,0 +1,34 @@
+winget install --id Python.Python.3.13 -e (PowerShell)
+python --version
+
+
+
+////////////////////////////////////////////////////////////////////
+-> Comandos pra instalar o Python e criar um ambiente virtual no Windows (PowerShell):
+cd C:\Desenv\Py
+
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+python -m pip install --upgrade pip
+python -m pip install google-genai
+
+
+////////////////////////////////////////////////////////////////////
+-> Se o powershell não permitir a execução de scripts, execute o comando abaixo para permitir:
+Set-ExecutionPolicy -Scope Process Bypass
+.\.venv\Scripts\Activate.ps1
+
+
+
+////////////////// ENV ////////////////
+python -m pip install python-dotenv (PowerShell)
+
+python.terminal.useEnvFile 
+
+
+///////////////// Pacotes do Google Genai ///////////////
+
+.\.venv\Scripts\Activate.ps1
+python -m pip install google-genai
+python .\chat.py
