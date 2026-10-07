@@ -41,3 +41,7 @@ python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 
+
+/////////////// Erro ////////////////
+Em caso de erro, verificar se o modelo do gemini se encontra disponível,
+Pode ter sobrecarga ou estar fora.
