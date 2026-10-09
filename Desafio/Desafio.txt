@@ -1,0 +1,9 @@
+1 - Criar um arquivo .txt a partir de uma lista de perguntas vindas de uma lista em Python
+
+2 - Ler as perguntas desse arquivo .txt
+
+3 - Obter respostas de um LLM para cada uma.
+
+4 - Salvar os resultados em um novo arquivos .csv
+
+5 - Ler o arquivo .csv usando Pandas
